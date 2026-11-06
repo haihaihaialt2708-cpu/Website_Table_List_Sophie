@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.header img{
+    width: 1250px;
+    height: 300px;
+    padding: 0%;
+}
+
+.header{
+    background-color: rgb(255, 242, 145);
+    padding: 0px;
+    text-align: center;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(130, 184, 255);
+    transition: 1s;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(255, 248, 187);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgb(119, 156, 255);
+    color: rgb(220, 242, 75);
+}
+
+.footer{
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+/*style pada table*/
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr{
+    background-color: bisque;
+}
+
+tr:nth-child(even){
+    background-color: rgb(51, 119, 172);
+}
+
+tr:hover{
+    background-color: aquamarine;
+}
